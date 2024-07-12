@@ -31,6 +31,7 @@ in {
 		};
 		aliases = {
 			undo = "reset --soft HEAD~1";
+			clear = "reset --hard";
 		};
 	};
 	
