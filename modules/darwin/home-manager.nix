@@ -87,8 +87,6 @@ in {
 				{ path = "/Applications/Firefox.app"; }
 				{ path = "/Applications/Prime Video.app"; }
 				{ path = "/System/Applications/Music.app/"; }
-				{ path = "/Applications/HandBrake.app"; }
-				{ path = "/Applications/GIMP.app"; }
 				{ path = "/Applications/LocalSend.app"; }
 				{ path = "/Applications/AlDente.app"; }
 				{ path = "/Applications/Mullvad VPN.app"; }
