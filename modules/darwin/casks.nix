@@ -8,6 +8,7 @@ _: [
 	"handbrake"
 	"stolendata-mpv"
 	"mullvadvpn"
+	"netnewswire"
 	"signal"
 	"visual-studio-code"
 ]
