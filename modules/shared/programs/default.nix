@@ -78,5 +78,12 @@ in {
 		};
 	};
 
+	yt-dlp = {
+		enable = true;
+		settings = {
+			concurrent-fragments = 8;
+		};
+	};
+	
 	zsh = import ./zsh.nix { inherit config pkgs lib; };
 }
