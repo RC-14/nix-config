@@ -3,6 +3,14 @@
 	user = "rc-14";
 	email = "61058098+RC-14@users.noreply.github.com";
 in {
+	gh = {
+		enable = true;
+		settings = {
+			editor = "vim";
+			git_protocol = "ssh";
+		};
+	};
+
 	git = {
 		enable = true;
 		ignores = [ ".DS_Store" ];
