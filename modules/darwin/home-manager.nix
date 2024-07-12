@@ -85,6 +85,7 @@ in {
 				{ path = "/System/Applications/Mail.app/"; }
 				{ path = "/System/Applications/Calendar.app"; }
 				{ path = "/System/Applications/Reminders.app"; }
+				{ path = "/Applications/NetNewsWire.app"; }
 				{ path = "/Applications/Firefox.app"; }
 				{ path = "/Applications/Prime Video.app"; }
 				{ path = "/System/Applications/Music.app/"; }
