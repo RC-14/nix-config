@@ -30,8 +30,8 @@ in {
 			pull.rebase = true;
 		};
 		aliases = {
-			undo = "reset --soft HEAD~1";
-			clear = "reset --hard";
+			shit = "reset --soft HEAD~1";
+			wipe = "reset --hard";
 		};
 	};
 	
