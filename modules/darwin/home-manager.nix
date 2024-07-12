@@ -79,6 +79,7 @@ in {
 				{ path = "${pkgs.alacritty}/Applications/Alacritty.app/"; }
 				{ path = "/Applications/GitHub Desktop.app"; }
 				{ path = "/Applications/Visual Studio Code.app"; }
+				{ path = "/Applications/Telegram.app"; }
 				{ path = "/Applications/Signal.app"; }
 				{ path = "/System/Applications/Mail.app/"; }
 				{ path = "/System/Applications/Calendar.app"; }
