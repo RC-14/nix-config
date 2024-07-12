@@ -3,6 +3,11 @@
 	user = "rc-14";
 	email = "61058098+RC-14@users.noreply.github.com";
 in {
+	direnv = {
+		enable = true;
+		nix-direnv.enable = true;
+	};
+
 	gh = {
 		enable = true;
 		settings = {
