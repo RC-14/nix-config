@@ -1,5 +1,6 @@
 _: [
 	"aldente"
+	"discord"
 	"firefox"
 	"gimp"
 	"github"
