@@ -89,6 +89,7 @@ in {
 				{ path = "/Applications/NetNewsWire.app"; }
 				{ path = "/Applications/Firefox.app"; }
 				{ path = "/Applications/Prime Video.app"; }
+				{ path = "/Applications/Audible.app"; }
 				{ path = "/System/Applications/Music.app/"; }
 				{ path = "/Applications/LocalSend.app"; }
 				{ path = "/Applications/AlDente.app"; }
