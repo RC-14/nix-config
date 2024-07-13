@@ -32,6 +32,7 @@ in {
 		# you may receive an error message "Redownload Unavailable with This Apple ID".
 		# This message is safe to ignore. (https://github.com/dustinlyons/nixos-config/issues/83)
 		masApps = {
+			# Audible = 379693831;
 			Bitwarden = 1352778147;
 			Goodnotes = 1444383602;
 			Keynote = 409183694;
