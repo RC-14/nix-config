@@ -1,6 +1,7 @@
 _: [
 	"aldente"
 	"balenaetcher"
+	"cyberduck"
 	"discord"
 	"docker"
 	"firefox"
