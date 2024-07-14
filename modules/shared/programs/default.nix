@@ -2,6 +2,8 @@
 	name = "RC-14";
 	user = "rc-14";
 	email = "61058098+RC-14@users.noreply.github.com";
+
+	exports =  { inherit config pkgs lib name user email; };
 in {
 	direnv = {
 		enable = true;
@@ -16,47 +18,13 @@ in {
 		};
 	};
 
-	git = {
-		enable = true;
-		ignores = [ ".DS_Store" ];
-		userName = name;
-		userEmail = email;
-		lfs.enable = true;
-		extraConfig = {
-			init.defaultBranch = "main";
-			core = {
-				editor = "vim";
-			};
-			pull.rebase = true;
-		};
-		aliases = {
-			# Undo the last commit, keeping all files and changes
-			shit = "reset --soft HEAD~1";
-			# Reset files to the state of the current commit. Does not delete untracked files, use clean -i for that.
-			wipe = "reset --hard";
-		};
-	};
+	git = import ./git.nix exports;
 	
-	mpv = import ./mpv.nix { inherit config pkgs lib; };
+	mpv = import ./mpv.nix exports;
 
-	neovim = import ./neovim { inherit config pkgs lib; };
+	neovim = import ./neovim exports;
 
-	ssh = {
-		enable = true;
-		includes = [
-			(lib.mkIf pkgs.stdenv.hostPlatform.isLinux "/home/${user}/.ssh/config_external")
-			(lib.mkIf pkgs.stdenv.hostPlatform.isDarwin "/Users/${user}/.ssh/config_external")
-		];
-		matchBlocks = {
-			"github.com" = {
-				identitiesOnly = true;
-				identityFile = [
-					(lib.mkIf pkgs.stdenv.hostPlatform.isLinux "/home/${user}/.ssh/id_ed25519")
-					(lib.mkIf pkgs.stdenv.hostPlatform.isDarwin "/Users/${user}/.ssh/id_ed25519")
-				];
-			};
-		};
-	};
+	ssh = import ./ssh.nix exports;
 
 	yt-dlp = {
 		enable = true;
@@ -65,5 +33,5 @@ in {
 		};
 	};
 	
-	zsh = import ./zsh.nix { inherit config pkgs lib; };
+	zsh = import ./zsh.nix exports;
 }
