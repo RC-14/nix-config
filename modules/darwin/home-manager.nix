@@ -8,6 +8,8 @@ in {
 		./dock
 	];
 
+	programs.zsh.enable = true;
+
 	users.users.${user} = {
 		name = "${user}";
 		home = "/Users/${user}";
