@@ -1,6 +1,7 @@
 _: [
 	"aldente"
 	"balenaetcher"
+	"calibre"
 	"cyberduck"
 	"discord"
 	"disk-inventory-x"
