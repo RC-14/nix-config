@@ -11,7 +11,6 @@ _: [
 	"gimp"
 	"github"
 	"handbrake"
-	"prismlauncher"
 	"stolendata-mpv"
 	"mullvadvpn"
 	"netnewswire"

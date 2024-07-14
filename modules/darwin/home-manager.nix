@@ -92,6 +92,7 @@ in {
 				{ path = "/Applications/Prime Video.app"; }
 				{ path = "/Applications/Audible.app"; }
 				{ path = "/System/Applications/Music.app/"; }
+				{ path = "${pkgs.prismlauncher}/Applications/PrismLauncher.app/"; }
 				{ path = "/Applications/LocalSend.app"; }
 				{ path = "/Applications/BetterTouchTool.app"; }
 				{ path = "/Applications/AlDente.app"; }

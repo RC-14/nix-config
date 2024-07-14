@@ -29,4 +29,7 @@
 	rar
 	unzip
 	zsh-powerlevel10k
+
+	# Games
+	prismlauncher
 ]
