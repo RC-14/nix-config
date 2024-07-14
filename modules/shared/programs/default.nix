@@ -35,5 +35,5 @@ in {
 		};
 	};
 	
-	zsh = import ./zsh.nix exports;
+	zsh = import ./zsh exports;
 }

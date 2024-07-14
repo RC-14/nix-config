@@ -76,6 +76,19 @@
 		searchUpKey = [ "^[[A" ];
 	};
 
+	plugins = [
+		{
+			name = "powerlevel10k";
+			src = pkgs.zsh-powerlevel10k;
+			file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+		}
+		{
+			name = "powerlevel10k-config";
+			src = ./powerlevel10k-config;
+			file = "p10k.zsh";
+		}
+	];
+
 	# An attribute set that maps aliases (the top level attribute names in this option) to command strings or directly to build outputs.
 	shellAliases = {
 		ls = "ls --color=auto";
