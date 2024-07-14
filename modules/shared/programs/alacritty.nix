@@ -1,4 +1,4 @@
-{ ... }: {
+{ pkgs, ... }: {
 	enable = true;
 
 	settings = {
@@ -65,6 +65,8 @@
 				style = "Regular";
 			};
 		};
+
+		shell.program = "${pkgs.zsh}/bin/zsh";
 
 		window = {
 			opacity = 0.9;
