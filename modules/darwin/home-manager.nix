@@ -93,6 +93,7 @@ in {
 				{ path = "/Applications/Audible.app"; }
 				{ path = "/System/Applications/Music.app/"; }
 				{ path = "/Applications/LocalSend.app"; }
+				{ path = "/Applications/BetterTouchTool.app"; }
 				{ path = "/Applications/AlDente.app"; }
 				{ path = "/Applications/Mullvad VPN.app"; }
 
