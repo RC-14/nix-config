@@ -1,6 +1,7 @@
 _: [
 	"aldente"
 	"balenaetcher"
+	"bettertouchtool"
 	"calibre"
 	"cyberduck"
 	"discord"
