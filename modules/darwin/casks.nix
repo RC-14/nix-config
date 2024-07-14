@@ -10,6 +10,7 @@ _: [
 	"mullvadvpn"
 	"netnewswire"
 	"signal"
+	"tor-browser"
 	"visual-studio-code"
 	"whisky"
 	"wineskin"
