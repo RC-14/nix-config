@@ -1,5 +1,6 @@
 _: [
 	"aldente"
+	"balenaetcher"
 	"discord"
 	"docker"
 	"firefox"
