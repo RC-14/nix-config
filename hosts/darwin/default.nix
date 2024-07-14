@@ -50,6 +50,17 @@ in {
 		agenix.packages."${pkgs.system}".default
 	] ++ (import ../../modules/shared/packages.nix { inherit pkgs; });
 
+	fonts.packages = with pkgs; [
+		geist-font
+
+		(nerdfonts.override {
+			fonts = [
+				# Patched fonts
+				"GeistMono"
+			];
+		})
+	];
+
 	system = {
 		stateVersion = 4;
 

@@ -5,6 +5,8 @@
 
 	exports =  { inherit config pkgs lib name user email; };
 in {
+	alacritty = import ./alacritty.nix exports;
+
 	direnv = {
 		enable = true;
 		nix-direnv.enable = true;
