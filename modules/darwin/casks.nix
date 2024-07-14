@@ -3,6 +3,7 @@ _: [
 	"balenaetcher"
 	"cyberduck"
 	"discord"
+	"disk-inventory-x"
 	"docker"
 	"firefox"
 	"gimp"
