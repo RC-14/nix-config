@@ -11,4 +11,6 @@ _: [
 	"netnewswire"
 	"signal"
 	"visual-studio-code"
+	"whisky"
+	"wineskin"
 ]

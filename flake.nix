@@ -31,6 +31,10 @@
 			url = "github:homebrew/homebrew-cask";
 			flake = false;
 		}; 
+		homebrew-wine = {
+			url = "github:Gcenx/homebrew-wine";
+			flake = false;
+		};
 
 		mac-app-util.url = "github:hraban/mac-app-util";
 
@@ -44,7 +48,7 @@
 			flake = false;
 		};
 	};
-	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, mac-app-util, disko, secrets } @inputs: let
+	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, homebrew-wine, mac-app-util, disko, secrets } @inputs: let
 		user = "rc-14";
 		linuxSystems = [
 			# "x86_64-linux"
@@ -113,6 +117,7 @@ exec ${self}/apps/${system}/${scriptName}
 								"homebrew/homebrew-core" = homebrew-core;
 								"homebrew/homebrew-cask" = homebrew-cask;
 								"homebrew/homebrew-bundle" = homebrew-bundle;
+								"gcenx/homebrew-wine" = homebrew-wine;
 							};
 							mutableTaps = false;
 							autoMigrate = true;
