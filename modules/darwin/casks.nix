@@ -11,6 +11,7 @@ _: [
 	"netnewswire"
 	"signal"
 	"tor-browser"
+	"via"
 	"visual-studio-code"
 	"whisky"
 	"wineskin"
