@@ -14,6 +14,7 @@ _: [
 	"stolendata-mpv"
 	"mullvadvpn"
 	"netnewswire"
+	"sf-symbols"
 	"signal"
 	"tor-browser"
 	"via"
