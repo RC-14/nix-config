@@ -1,4 +1,5 @@
 _: [
+	"adobe-acrobat-reader"
 	"aldente"
 	"balenaetcher"
 	"bettertouchtool"
