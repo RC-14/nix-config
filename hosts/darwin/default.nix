@@ -185,6 +185,27 @@ in {
 					ShowMountedServersOnDesktop = true;
 					ShowRemovableMediaOnDesktop = true;
 					_FXSortFoldersFirst = true;
+
+					DesktopViewSettings = {
+						GroupBy = "kind";
+						IconViewSettings = {
+							arrangeBy = "name";
+							gridSpacing = 54;
+							iconSize = 64;
+							labelOnBottom = 1;
+							showIconPreview = 1;
+							showIconInfo = 0;
+							textSize = 12;
+							# Don't really know what they do but I don't just wanna delete them
+							viewOptionsVersion = 1;
+							backgroundColorBlue = 1;
+							backgroundColorGreen = 1;
+							backgroundColorRed = 1;
+							backgroundType = 0;
+							gridOffsetX = 0;
+							gridOffsetY = 0;
+						};
+					};
 				};
 
 				# Prevent Photos from opening automatically when devices are plugged in
