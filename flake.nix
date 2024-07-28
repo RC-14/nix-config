@@ -113,6 +113,7 @@ exec ${self}/apps/${system}/${scriptName}
 						nix-homebrew = {
 							inherit user;
 							enable = true;
+							enableRosetta = true;
 							taps = {
 								"homebrew/homebrew-core" = homebrew-core;
 								"homebrew/homebrew-cask" = homebrew-cask;
@@ -128,24 +129,5 @@ exec ${self}/apps/${system}/${scriptName}
 				];
 			}
 		);
-
-		# nixosConfigurations = nixpkgs.lib.genAttrs linuxSystems (system: nixpkgs.lib.nixosSystem {
-		# 	inherit system;
-		# 	specialArgs = inputs;
-		# 	modules = [
-		# 		disko.nixosModules.disko
-		#
-		# 		home-manager.nixosModules.home-manager
-		# 		{
-		# 			home-manager = {
-		# 				useGlobalPkgs = true;
-		# 				useUserPackages = true;
-		# 				users.${user} = import ./modules/nixos/home-manager.nix;
-		# 			};
-		# 		}
-		#
-		# 		./hosts/nixos
-		# 	];
-		# });
 	};
 }
