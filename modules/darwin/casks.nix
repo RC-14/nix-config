@@ -13,6 +13,7 @@ _: [
 	"github"
 	"handbrake"
 	"stolendata-mpv"
+	"monero-wallet"
 	"mullvadvpn"
 	"netnewswire"
 	"sabnzbd"
