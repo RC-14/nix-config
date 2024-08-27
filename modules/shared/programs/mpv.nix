@@ -2,7 +2,7 @@
 	enable = true;
 
 	# On mac use the homebrew cask instead
-	package = lib.mkIf pkgs.stdenv.hostPlatform.isDarwin (pkgs.writeShellScriptBin "mpv" "exec /nix/store/n59hsv730dfxmwnm67b5lf2m9qmnxii1-darwin-mpv-link/bin/mpv \"$@\"");
+	package = lib.mkIf pkgs.stdenv.hostPlatform.isDarwin (pkgs.writeShellScriptBin "mpv" "exec /Applications/mpv.app/Contents/MacOS/mpv \"$@\"");
 
 	bindings = {
 		# Skip anime opening
