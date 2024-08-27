@@ -4,6 +4,7 @@ _: [
 	"aldente"
 	"balenaetcher"
 	"bettertouchtool"
+	"blobsaver"
 	"calibre"
 	"cyberduck"
 	"discord"
