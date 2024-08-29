@@ -187,8 +187,9 @@ in {
 					ShowRemovableMediaOnDesktop = true;
 					_FXSortFoldersFirst = true;
 
+					FXPreferredGroupBy = "Kind";
 					DesktopViewSettings = {
-						GroupBy = "kind";
+						GroupBy = "Kind";
 						IconViewSettings = {
 							arrangeBy = "name";
 							gridSpacing = 54;
