@@ -10,6 +10,7 @@ _: [
 	"discord"
 	"disk-inventory-x"
 	"docker"
+	"ente-auth"
 	"firefox"
 	"gimp"
 	"github"
