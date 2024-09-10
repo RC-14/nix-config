@@ -16,6 +16,7 @@ _: [
 	"github"
 	"handbrake"
 	"stolendata-mpv"
+	"mkvtoolnix"
 	"monero-wallet"
 	"mullvadvpn"
 	"netnewswire"
