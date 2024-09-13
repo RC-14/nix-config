@@ -8,6 +8,7 @@
 	killall
 	nix-output-monitor
 	openssh
+	opentofu
 	wget
 	zip
 
