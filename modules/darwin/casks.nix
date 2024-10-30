@@ -15,6 +15,7 @@ _: [
 	"gimp"
 	"github"
 	"handbrake"
+	"kitty"
 	"stolendata-mpv"
 	"mkvtoolnix"
 	"monero-wallet"

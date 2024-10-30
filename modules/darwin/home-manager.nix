@@ -84,7 +84,7 @@ in {
 				{ path = "/System/Applications/Utilities/Activity Monitor.app"; }
 				{ path = "/Applications/Bitwarden.app"; }
 				{ path = "/Applications/Ente Auth.app"; }
-				{ path = "/Applications/Alacritty.app/"; }
+				{ path = "/Applications/kitty.app/"; }
 				{ path = "/Applications/GitHub Desktop.app"; }
 				{ path = "/Applications/Visual Studio Code.app"; }
 				{ path = "/Applications/Telegram.app"; }

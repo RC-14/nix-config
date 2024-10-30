@@ -1,5 +1,5 @@
 { pkgs, lib, ... }: {
-	enable = true;
+	enable = false;
 
 	# Use homebrew alacritty on darwin
 	package = lib.mkIf pkgs.stdenv.hostPlatform.isDarwin (pkgs.writeShellScriptBin "alacritty" "exec /Applications/Alacritty.app/Contents/MacOS/alacritty \"$@\"");

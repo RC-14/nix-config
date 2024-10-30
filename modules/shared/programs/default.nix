@@ -22,6 +22,8 @@ in {
 
 	git = import ./git.nix exports;
 	
+	kitty = import ./kitty.nix exports;
+	
 	mpv = import ./mpv.nix exports;
 
 	neovim = import ./neovim exports;
