@@ -96,6 +96,7 @@
 		ll = "ls -lh";
 		la = "ls -A";
 		lla = "ll -A";
+		kssh = "kitten ssh";
 	};
 
 	# Similar to shellAliases, but are substituted anywhere on a line.
