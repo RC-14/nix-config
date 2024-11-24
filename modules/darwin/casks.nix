@@ -21,6 +21,7 @@ _: [
 	"monero-wallet"
 	"mullvadvpn"
 	"netnewswire"
+	"qbittorrent"
 	"sabnzbd"
 	"sf-symbols"
 	"signal"
