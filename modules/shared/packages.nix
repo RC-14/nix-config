@@ -10,6 +10,7 @@
 	openssh
 	wget
 	zip
+	zulu
 
 	# Encryption and security tools
 	age
