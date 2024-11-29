@@ -7,6 +7,7 @@
 	vimdiffAlias = true;
 
 	extraPackages = with pkgs; [
+    cargo
 		gcc
 		gnumake
     nodejs_23
