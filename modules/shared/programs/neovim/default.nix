@@ -6,5 +6,10 @@
 	vimAlias = true;
 	vimdiffAlias = true;
 
-	
+	extraPackages = with pkgs; [
+		gcc
+		gnumake
+    nodejs_23
+		ripgrep
+	];
 }
