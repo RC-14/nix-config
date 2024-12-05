@@ -53,12 +53,7 @@ in {
 	fonts.packages = with pkgs; [
 		geist-font
 
-		(nerdfonts.override {
-			fonts = [
-				# Patched fonts
-				"GeistMono"
-			];
-		})
+		nerd-fonts.geist-mono
 	];
 
 	system = {
