@@ -1,6 +1,11 @@
 {
 	description = "My Nix Configuration";
 	inputs = {
+    voedl = {
+      url = "path:/Users/rc-14/Desktop/voedl";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
 		nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
 		agenix = {
@@ -48,7 +53,7 @@
 			flake = false;
 		};
 	};
-	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, homebrew-wine, mac-app-util, disko, secrets } @inputs: let
+	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, homebrew-wine, mac-app-util, disko, secrets, voedl } @inputs: let
 		user = "rc-14";
 		linuxSystems = [
 			# "x86_64-linux"

@@ -1,4 +1,4 @@
-{ agenix, config, pkgs, ... }: let
+{ agenix, config, pkgs, voedl, ... }: let
 	user = "rc-14";
 in {
 	imports = [
@@ -48,7 +48,7 @@ in {
 	# Load configuration that is shared across systems
 	environment.systemPackages = with pkgs; [
 		agenix.packages."${pkgs.system}".default
-	] ++ (import ../../modules/shared/packages.nix { inherit pkgs; });
+	] ++ (import ../../modules/shared/packages.nix { inherit pkgs voedl; });
 
 	fonts.packages = with pkgs; [
 		geist-font

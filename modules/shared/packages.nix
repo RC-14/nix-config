@@ -1,4 +1,7 @@
-{ pkgs }: with pkgs; [
+{ pkgs, voedl }: with voedl.packages.${pkgs.stdenv.hostPlatform.system}; [
+  default
+  batchdl
+] ++ (with pkgs; [
 	# General packages for development and system management
 	bash-completion
 	btop
@@ -34,4 +37,4 @@
 
 	# Games
 	prismlauncher
-]
+])

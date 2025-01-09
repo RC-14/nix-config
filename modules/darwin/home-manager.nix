@@ -1,4 +1,4 @@
-{ config, pkgs, lib, home-manager, ... }: let
+{ voedl, config, pkgs, lib, home-manager, ... }: let
 	user = "rc-14";
 	# Define the content of your file as a derivation
 	sharedFiles = import ../shared/files.nix { inherit config pkgs; };
@@ -58,10 +58,10 @@ in {
 		useUserPackages = true;
 		users.${user} = { pkgs, config, lib, ... }:{
 			home = {
-				packages = pkgs.callPackage ./packages.nix {};
+				packages = pkgs.callPackage ./packages.nix { inherit voedl; };
 				stateVersion = "24.05";
 			};
-			programs = {} // import ../shared/programs { inherit config pkgs lib; };
+			programs = {} // import ../shared/programs { inherit config voedl pkgs lib; };
 
 			# Marked broken Oct 20, 2022 check later to remove this
 			# https://github.com/nix-community/home-manager/issues/3344
