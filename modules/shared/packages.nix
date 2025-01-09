@@ -8,6 +8,7 @@
 	killall
 	nix-output-monitor
 	openssh
+  static-web-server
 	wget
 	zip
 	zulu
