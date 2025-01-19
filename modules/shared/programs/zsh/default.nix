@@ -97,7 +97,7 @@
 		la = "ls -A";
 		lla = "ll -A";
 		kssh = "kitten ssh";
-    static-web-server = "caffeinate -d static-web-server";
+    static-web-server = "caffeinate -s static-web-server";
 	};
 
 	# Similar to shellAliases, but are substituted anywhere on a line.
