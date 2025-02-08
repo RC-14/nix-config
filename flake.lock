@@ -84,11 +84,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1737085297,
-        "narHash": "sha256-0gpgsX7hCauT6pblVg+hrDnt83lPoYzq/2BqqyvU8Tc=",
+        "lastModified": 1738743987,
+        "narHash": "sha256-O3bnAfsObto6l2tQOmQlrO6Z2kD6yKwOWfs7pA0CpOc=",
         "owner": "LnL7",
         "repo": "nix-darwin",
-        "rev": "09414c7e2def24a5c52e588017b8524bcb68972a",
+        "rev": "ae406c04577ff9a64087018c79b4fdc02468c87c",
         "type": "github"
       },
       "original": {
@@ -105,11 +105,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1737038063,
-        "narHash": "sha256-rMEuiK69MDhjz1JgbaeQ9mBDXMJ2/P8vmOYRbFndXsk=",
+        "lastModified": 1738765162,
+        "narHash": "sha256-3Z40qHaFScWUCVQrGc4Y+RdoPsh1R/wIh+AN4cTXP0I=",
         "owner": "nix-community",
         "repo": "disko",
-        "rev": "bf0abfde48f469c256f2b0f481c6281ff04a5db2",
+        "rev": "ff3568858c54bd306e9e1f2886f0f781df307dff",
         "type": "github"
       },
       "original": {
@@ -201,11 +201,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1737120639,
-        "narHash": "sha256-p5e/45V41YD3tMELuiNIoVCa25/w4nhOTm0B9MtdHFI=",
+        "lastModified": 1739002622,
+        "narHash": "sha256-PtJV5OYQF7XO6XkDYypsYJS3+OsgYaYSmkO3I/A7lZo=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "a0046af169ce7b1da503974e1b22c48ef4d71887",
+        "rev": "947eef9e99c42346cf0aac2bebe1cd94924c173b",
         "type": "github"
       },
       "original": {
@@ -217,11 +217,11 @@
     "homebrew-bundle": {
       "flake": false,
       "locked": {
-        "lastModified": 1737050282,
-        "narHash": "sha256-vnRCov6oOBJa2WNtJ2q2dyT6OQy1YhQougoqJA3+uus=",
+        "lastModified": 1738968347,
+        "narHash": "sha256-TmsbNeBFOy1OWti+uxj150wlvIbwpEoehExAwVwGqag=",
         "owner": "homebrew",
         "repo": "homebrew-bundle",
-        "rev": "260cb2381420dbdce0e716c80083aee1d05b8b07",
+        "rev": "0d4878acb6be52840d0f648288affa5fcbdd7779",
         "type": "github"
       },
       "original": {
@@ -233,11 +233,11 @@
     "homebrew-cask": {
       "flake": false,
       "locked": {
-        "lastModified": 1737142220,
-        "narHash": "sha256-Rt8EuakPP7W3tR29dphmgZ9SHzSvd1TxgNICpnGUe1g=",
+        "lastModified": 1739000709,
+        "narHash": "sha256-7LtH9U8Nozny1sa/THdB6iVe7EB7D3N24xih/Ie9yB8=",
         "owner": "homebrew",
         "repo": "homebrew-cask",
-        "rev": "a2547a120892da20f62ddecf9ed3b95f8a8e2163",
+        "rev": "bb968298fa5cc79102d6b5f150b605fa7519d5a9",
         "type": "github"
       },
       "original": {
@@ -249,11 +249,11 @@
     "homebrew-core": {
       "flake": false,
       "locked": {
-        "lastModified": 1737148125,
-        "narHash": "sha256-mWvRLNwokG0GFq7xZaZygk6DlUPsm8RlXGxOlg1tSlc=",
+        "lastModified": 1739005400,
+        "narHash": "sha256-4h4M/F+fGvf43D5l5PHFIHcNWFslLfeLnFVbiSJw3Nw=",
         "owner": "homebrew",
         "repo": "homebrew-core",
-        "rev": "9a33d0dc5c3295e2f8961082e2677b592d7653ed",
+        "rev": "1dcb0baf4a6816ea98006489556cb4dae04b8453",
         "type": "github"
       },
       "original": {
@@ -385,11 +385,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1737003892,
-        "narHash": "sha256-RCzJE9wKByLCXmRBp+z8LK9EgdW+K+W/DXnJS4S/NVo=",
+        "lastModified": 1738958807,
+        "narHash": "sha256-h0WKgHTLkjwjRNTkqByQquS7N/15SqIFMQ356Ww8uCA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ae06b9c2d83cb5c8b12d7d0e32692e93d1379713",
+        "rev": "e8d0b02af0958823c955aaab3c82b03f54411d91",
         "type": "github"
       },
       "original": {
@@ -485,8 +485,8 @@
         ]
       },
       "locked": {
-        "lastModified": 1736462363,
-        "narHash": "sha256-J4WJVK6iTY8biGHWdk7mfuYz7DurBiM1meVnuWluaoo=",
+        "lastModified": 1738790580,
+        "narHash": "sha256-GmecUSO/P6nfzPEkQbLDf8owJPMUq6DeyiQrg8Lzwms=",
         "path": "/Users/rc-14/Desktop/voedl",
         "type": "path"
       },
