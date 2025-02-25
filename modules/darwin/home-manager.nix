@@ -10,6 +10,28 @@ in {
 
 	programs.zsh.enable = true;
 
+  launchd.user.agents.wireproxy = {
+    command = lib.getExe (pkgs.writeShellApplication {
+      name = "wireproxy-launcher";
+      runtimeInputs = with pkgs; [ wireproxy ];
+      text = ''
+        [ ! -d "$HOME/.config/wireproxy/" ] && exit
+
+        pushd "$HOME/.config/wireproxy/"
+
+        for FILE in *.conf; do
+          [ ! -d "$FILE" ] && wireproxy -d -c "$(pwd)/$FILE"
+        done
+
+        popd
+      '';
+    });
+    serviceConfig = {
+      AbandonProcessGroup = true;
+      RunAtLoad = true;
+    };
+  };
+
 	users.users.${user} = {
 		name = "${user}";
 		home = "/Users/${user}";
