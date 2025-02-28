@@ -12,6 +12,7 @@ _: [
 	"docker"
 	"ente-auth"
 	"firefox"
+  "geogebra@5"
 	"gimp"
 	"github"
 	"handbrake"
