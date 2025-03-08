@@ -5,6 +5,7 @@ _: [
   "apparency"
 	"balenaetcher"
 	"bettertouchtool"
+  "betterzip"
 	"blobsaver"
 	"calibre"
 	"cyberduck"
