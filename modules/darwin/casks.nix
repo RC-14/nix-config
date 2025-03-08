@@ -2,6 +2,7 @@ _: [
 	"adobe-acrobat-reader"
 	"alacritty"
 	"aldente"
+  "apparency"
 	"balenaetcher"
 	"bettertouchtool"
 	"blobsaver"
