@@ -18,6 +18,7 @@ _: [
 	"gimp"
 	"github"
 	"handbrake"
+  "inkscape"
 	"kitty"
 	"stolendata-mpv"
 	"mkvtoolnix"
