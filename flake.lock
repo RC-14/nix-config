@@ -262,19 +262,19 @@
         "type": "github"
       }
     },
-    "homebrew-wine": {
+    "homebrew-kegworks": {
       "flake": false,
       "locked": {
-        "lastModified": 1737086360,
-        "narHash": "sha256-hlR3bzQoVwFBZqjo/dH4rPgQNADGWBz+oEoJB0e/66Q=",
-        "owner": "Gcenx",
-        "repo": "homebrew-wine",
-        "rev": "f94a82c27ab21af4e00c723cf79598423dabeb64",
+        "lastModified": 1742564311,
+        "narHash": "sha256-+FZD3YWbK1B8udtjyRHrHkgenbRYI40f4t7MkxZo7Ko=",
+        "owner": "Kegworks-App",
+        "repo": "homebrew-kegworks",
+        "rev": "24741ff8db2d075cfaf60c9d1d5bae68274c468d",
         "type": "github"
       },
       "original": {
-        "owner": "Gcenx",
-        "repo": "homebrew-wine",
+        "owner": "Kegworks-App",
+        "repo": "homebrew-kegworks",
         "type": "github"
       }
     },
@@ -408,7 +408,7 @@
         "homebrew-bundle": "homebrew-bundle",
         "homebrew-cask": "homebrew-cask",
         "homebrew-core": "homebrew-core",
-        "homebrew-wine": "homebrew-wine",
+        "homebrew-kegworks": "homebrew-kegworks",
         "mac-app-util": "mac-app-util",
         "nix-homebrew": "nix-homebrew",
         "nixpkgs": "nixpkgs_4",

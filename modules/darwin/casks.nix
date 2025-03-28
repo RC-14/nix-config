@@ -19,6 +19,7 @@ _: [
 	"github"
 	"handbrake"
   "inkscape"
+  "kegworks"
 	"kitty"
 	"stolendata-mpv"
 	"mkvtoolnix"
@@ -36,5 +37,4 @@ _: [
 	"via"
 	"visual-studio-code"
 	"whisky"
-	"wineskin"
 ]

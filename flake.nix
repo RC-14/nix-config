@@ -36,8 +36,8 @@
 			url = "github:homebrew/homebrew-cask";
 			flake = false;
 		}; 
-		homebrew-wine = {
-			url = "github:Gcenx/homebrew-wine";
+		homebrew-kegworks = {
+			url = "github:Kegworks-App/homebrew-kegworks";
 			flake = false;
 		};
 
@@ -53,7 +53,7 @@
 			flake = false;
 		};
 	};
-	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, homebrew-wine, mac-app-util, disko, secrets, voedl } @inputs: let
+	outputs = { self, nixpkgs, agenix, home-manager, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, homebrew-kegworks, mac-app-util, disko, secrets, voedl } @inputs: let
 		user = "rc-14";
 		linuxSystems = [
 			# "x86_64-linux"
@@ -123,7 +123,7 @@ exec ${self}/apps/${system}/${scriptName}
 								"homebrew/homebrew-core" = homebrew-core;
 								"homebrew/homebrew-cask" = homebrew-cask;
 								"homebrew/homebrew-bundle" = homebrew-bundle;
-								"gcenx/homebrew-wine" = homebrew-wine;
+								"Kegworks-App/homebrew-kegworks" = homebrew-kegworks;
 							};
 							mutableTaps = false;
 							autoMigrate = true;
