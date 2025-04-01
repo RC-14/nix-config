@@ -9,6 +9,7 @@
 		core = {
 			editor = "vim";
 		};
+    protocol.file.allow = "always";
 		pull.rebase = true;
 	};
 	aliases = {
