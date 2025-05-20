@@ -10,7 +10,7 @@
     cargo
 		gcc
 		gnumake
-    nodejs_23
+    nodejs_24
 		ripgrep
 	];
 }

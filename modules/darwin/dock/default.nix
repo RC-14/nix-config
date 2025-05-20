@@ -43,8 +43,8 @@ in {
 			createEntries = concatMapStrings
 				(entry: "${dockutil}/bin/dockutil --no-restart --add '${entry.path}' --section ${entry.section} ${entry.options}\n")
 				cfg.entries;
-		in {
-			system.activationScripts.postUserActivation.text = ''
+			
+			script = pkgs.writeShellScriptBin "dockSetup" ''
 				echo >&2 "Setting up the Dock..."
 				haveURIs="$(${dockutil}/bin/dockutil --list | ${pkgs.coreutils}/bin/cut -f2)"
 				if ! diff -wu <(echo -n "$haveURIs") <(echo -n '${wantURIs}') >&2 ; then
@@ -56,6 +56,8 @@ in {
 					echo >&2 "Dock setup complete."
 				fi
 			'';
+		in {
+			system.activationScripts.postActivation.text = "sudo -u rc-14 ${lib.getExe script}";
 		}
 	);
 }

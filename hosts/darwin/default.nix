@@ -60,13 +60,14 @@ in {
 
   system = {
     stateVersion = 4;
+    primaryUser = "rc-14";
 
     # activationScripts are executed every time you boot the system or run `nixos-rebuild` / `darwin-rebuild`.
-    activationScripts.postUserActivation.text = ''
+    activationScripts.postActivation.text = ''
       # activateSettings -u will reload the settings from the database and apply them to the current session,
       # so we do not need to logout and login again to make the changes take effect.
-      /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-      ${pkgs.darwin.shell_cmds}/bin/killall -KILL Finder
+      sudo -u rc-14 /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
+      sudo -u rc-14 ${pkgs.darwin.shell_cmds}/bin/killall -KILL Finder
 
       /opt/homebrew/bin/brew upgrade
     '';
